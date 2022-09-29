@@ -1,30 +1,71 @@
 header h1 {
-    color: darksalmon;
-    margin-bottom: 0px;
+    color: rgb(247, 247, 247);
+    margin-bottom: 12px;
+    position: absolute;
+    margin-left: 38px;
     
 }
 
-.container h6{
-    margin-top: 0px;
+header .container img {
+    height: 55px;
+}
+
+header .container {
+    display: flex;    
+}
+
+header .container {
+    background-color:#00203e;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h6{
+    width: 1366px;
+    margin:0 auto;
+    background-color:rgb(235, 235, 235);
 
 }
 header li {
     display: inline;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+header ul {
+    margin-bottom: 0;
+}
+
+header a{
+    color:azure;
+    text-decoration: none;
+    
 }
 
 .articles {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .container {
-    width: auto;
+    width: 1366px;
     margin: 0 auto;
 }
 
-.articles img {
-    width: 30%;
+.articles article img {
+    height: 180px;
 }
 
 .articles article p {
     text-align:justify;
+    color: gray;
+    margin-top: 0;
+    font-size: 10px;
+    
+}
+
+.articles article {
+    width: 30%;
+    
 }
