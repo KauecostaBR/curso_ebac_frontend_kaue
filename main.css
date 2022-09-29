@@ -1,3 +1,30 @@
 header h1 {
     color: darksalmon;
+    margin-bottom: 0px;
+    
+}
+
+.container h6{
+    margin-top: 0px;
+
+}
+header li {
+    display: inline;
+}
+
+.articles {
+    display: flex;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+}
+
+.articles img {
+    width: 30%;
+}
+
+.articles article p {
+    text-align:justify;
 }
