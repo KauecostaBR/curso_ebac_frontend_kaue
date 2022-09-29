@@ -21,7 +21,7 @@ header .container {
 }
 
 header h6{
-    width: 1366px;
+    width: auto;
     margin:0 auto;
     background-color:rgb(235, 235, 235);
 
@@ -50,7 +50,7 @@ header a{
 }
 
 .container {
-    width: 1366px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -104,6 +104,6 @@ li {
 }
 
 section {
-    width: 1366px;
+    width: auto;
     margin: auto;
 }
