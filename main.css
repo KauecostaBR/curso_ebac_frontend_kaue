@@ -1,13 +1,13 @@
 header h1 {
     color: rgb(247, 247, 247);
     margin-bottom: 12px;
-    position: absolute;
-    margin-left: 38px;
     
+    margin-left: 38px;    
 }
 
 header .container img {
     height: 55px;
+    position: absolute;
 }
 
 header .container {
@@ -26,6 +26,8 @@ header h6{
     background-color:rgb(235, 235, 235);
 
 }
+
+
 header li {
     display: inline;
     margin-left: 25px;
@@ -38,8 +40,7 @@ header ul {
 
 header a{
     color:azure;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 .articles {
@@ -54,18 +55,55 @@ header a{
 }
 
 .articles article img {
-    height: 180px;
+    width: 100%;
 }
 
 .articles article p {
+    text-align:justify;         
+}
+
+.articles header p {
     text-align:justify;
     color: gray;
     margin-top: 0;
-    font-size: 10px;
-    
+    font-size: 10px;    
 }
 
+
 .articles article {
-    width: 30%;
-    
+    width: 30%;    
+}
+
+.articles article li a {
+    text-decoration: none;
+    color:#00203e;
+}
+
+.articles article li a:hover {
+    text-decoration:underline;
+    color:blue;
+}
+
+li {
+    list-style-type: none;
+}
+
+#portfolio {
+    background-color: rgba(97,97,97, 0.1)
+
+}
+#nos {
+    background-color: rgba(97,97,97, 0.15)
+}
+#voces {
+    background-color: rgba(97,97,97, 0.2)
+}
+
+#news {
+    background-color: rgba(97,97,97, 0.25)
+}
+
+section {
+    width: 1366px;
+    margin: auto;
 }
