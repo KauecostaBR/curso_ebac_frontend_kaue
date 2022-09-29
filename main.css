@@ -22,7 +22,7 @@ header .container {
 
 header h6{
     width: 1366px;
-    margin:0 auto;
+    margin:0 auto 10px auto;
     background-color:rgb(235, 235, 235);
 
 }
@@ -106,4 +106,8 @@ li {
 section {
     width: 1366px;
     margin: auto;
+}
+
+.container h2 {
+    margin-top: 0;
 }
