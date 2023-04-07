@@ -21,7 +21,7 @@ header .container {
 }
 
 header h6{
-    width: 1366px;
+    
     margin:0 auto 10px auto;
     background-color:rgb(235, 235, 235);
 
@@ -42,46 +42,51 @@ header a{
     color:azure;
     text-decoration: none;    
 }
+.container2 {
+    position: absolute;
+    top: 14%;
+    left: 4%;
+    right: 5%;
+    
 
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+
+    margin-left: 0;
+    margin-right: 0;
+
+    
 }
 
-.container {
-    width: 1366px;
-    margin: 0 auto;
+.container2 p{
+    position: absolute;
+    top: 14%;
+    left: 4%;
+    right: 5%;
+    
+
+    font-size: 32px;
+    line-height: 38px;
+    color: #00203e;
+    font-family: "Montserrat", Sans-serif;
+
+    margin-left: 0;
+    margin-right: 0;
+
+    
 }
 
-.articles article img {
-    width: 100%;
+.container2 img {
+    
+width: 100%;
+
+opacity: 55%;
 }
 
-.articles article p {
-    text-align:justify;         
-}
-
-.articles header p {
-    text-align:justify;
-    color: gray;
-    margin-top: 0;
-    font-size: 10px;    
-}
-
-
-.articles article {
-    width: 30%;    
-}
-
-.articles article li a {
-    text-decoration: none;
-    color:#00203e;
-}
-
-.articles article li a:hover {
-    text-decoration:underline;
-    color:blue;
+.container2 p:hover {
+color: #1ba2d4;
 }
 
 li {
@@ -110,4 +115,28 @@ section {
 
 .container h2 {
     margin-top: 0;
+}
+
+.rodape {
+margin-top: 60%;
+bottom: 0;
+background-color: #00203e;
+color: #FFF;
+width: 100%;
+height: 30px;    
+text-align: center;
+
+line-height: 30px;
+
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 128px;
+}
+
+form textarea {
+    resize: none;
 }
